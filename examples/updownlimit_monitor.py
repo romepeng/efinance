@@ -7,6 +7,9 @@ from dataclasses import dataclass
 from datetime import datetime
 import rich
 
+import warnings
+warnings.filterwarnings("ignore")
+
 
 @dataclass()
 class StockQuoteInfo:
